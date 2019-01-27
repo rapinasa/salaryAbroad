@@ -1,0 +1,44 @@
+*{
+	margin: 5px auto;
+	padding:5px;
+	box-sizing: border-box;
+	font:20px sans-serif;
+
+}
+
+h2,p{
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+input{
+	width: 300px;
+	height: 30px;
+	background: lightblue;
+	color: green;
+	border-radius: 5px;
+	box-shadow: 5px 5px;
+}
+
+button{
+	background: green;
+	color: lightblue;
+	cursor: pointer;
+	border-radius: 3px;
+}
+button:hover{
+	transform: scale(1.2);
+	transition: ease-out 1s;
+	background: white;
+	color: black;
+}
+input:hover{
+background: white;
+	color: black;
+}
+span{
+	font-size: 30px;
+	color: red;
+}
+

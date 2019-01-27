@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Salary Abroad</title>
+    <link type="text/css" rel="stylesheet" href="bisnes.css"/>
+</head>
+<body>
+
+<h2>Сравнение достатка</h2>
+<p>Введите достаток дома и зарубежом:</p>
+
+<p>
+  <label for="salaryHome">Дома</label>
+  <input id="salaryHome" type="number" placeholder="Home" >
+  <label for="hh">Кол-во часов работы дома</label>
+  <input id="hh" type="number" placeholder="HomeHours">
+   <label for="salaryAbroad">Зарубежом</label>
+  <input id="salaryAbroad" type="number" placeholder="Abroad" >
+    <label for="ha">Кол-во часов работы дома</label>
+  <input id="ha" type="number" placeholder="AbroadHours" >
+   <label for="yearsAbroad">Кол-во лет</label>
+  <input id="yearsAbroad" type="number" placeholder="Years" >
+    <label for="Spending">Растраты в месяц</label>
+  <input id="Spending" type="number" placeholder="Spending">
+
+<button onclick="MoneyConverter()">Рассчитать</button>
+</p>
+<p>Во сколько раз больше Вы будете зарабатывать зарубежом: <span id="Comparison"></span></p>
+<p>Часовая ставка дома: <span id="HourHome"></span>за рубежом: <span id="HourAbroad"></span> разница с учетом часовой ставки: <span id="HourDifferencies"></span></p>
+<p>Сколько бы Вы откладывали, с учетом ТК Украины: <span id="HourDifferencies2"></span></p>
+<p>На сколько гривен больше Вы будете зарабатывать за рубежом: <span id="Grivny"></span></p>
+<p>На сколько долларов больше Вы будете зарабатывать за рубежом: <span id="Dollars"></span></p>
+<p>Cколько долларов Вы сможете отлаживать за рубежом, с учотом расстрат: <span id="DollarsAbroad"></span></p>
+<p>Сколько вы сможете заработать за определенное количество лет с учетом расстрат: <span id="CountYears"></span></p>
+
+<script type='text/javascript' src='./jscript.js'>
+
+
+</script>
+</body>
+</html>
